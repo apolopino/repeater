@@ -2,10 +2,11 @@
 import "bootstrap";
 import "./style.css";
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
 window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
+  var texto = "I will write questions if I'm stuck <br>";
+  for (let i = 0; i < 300; i++) {
+    //let parrafo = document.getElementById("excuse");
+    //parrafo.innerHTML += texto;
+    document.getElementById("repeat").innerHTML += texto;
+  }
 };
